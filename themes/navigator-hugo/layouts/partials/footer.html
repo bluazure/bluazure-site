@@ -29,26 +29,22 @@
                 </div>
                 <div class="col-sm-3 col-md-3 col-lg-3">
                     <h3>{{ .Site.Params.footerSubscribeTitle }}</h3>
-                    <!-- Begin Mailchimp Signup Form -->
-                    <form class="subscribe-form" action="https://bluazure.us6.list-manage.com/subscribe/post-json?u=7aace32fb64197b0575478a23&amp;id=f82b9d418d&amp;c=?" method="get" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" novalidate>
+                    <form class="subscribe-form">
                         <div class="form-group">
-                            <input id="mce-EMAIL" name="EMAIL" type="email" class="form-control" aria-describedby="emailHelp" placeholder="Enter email">
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
                         </div>
-                        <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                        <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_7aace32fb64197b0575478a23_f82b9d418d" tabindex="-1" value=""></div>
-                        <input type="submit" id="mc-embedded-subscribe" class="btn btn-main-sm" value="Subscribe Now"></input>
-                        <div id="mce-responses" class="clear">
-                            <div class="err-response" id="mce-error-response" style="display:none"></div>
-                            <div class="response" id="mce-success-response" style="display:none"></div>
-                        </div>
+                        <button type="submit" class="btn btn-main-sm">Subscribe Now</button>
                     </form>
-                    <!--End mc_embed_signup-->
                 </div>
             </div>
         </div>
     </div>
     <div class="footer-bottom">
-        <h5>Copyright &copy; {{ now.Format "2006"}} Bluazure Inc.</h5>
+        <h5>Copyright 2021. All rights reserved.</h5>
+        <h6>Design and Developed by themefisher.com
+            <br>Get More
+            <a href="https://themefisher.com/free-bootstrap-templates/" target="_blank">Free Bootstrap Templates</a>
+        </h6>
     </div>
 </footer>
 {{ "<!-- end footer -->" | safeHTML }}
@@ -75,52 +71,6 @@
 {{ "<!-- Main Script -->" | safeHTML }}
 {{ $script := resources.Get "js/script.js" | minify}}
 <script src="{{ $script.Permalink }}"></script>
-
-
-<script>
-$(document).ready( function () {
-    var $form = $('#mc-embedded-subscribe-form');
-    console.log("Form", $form, $form.length)
-    if ($form.length > 0) {
-        console.log("Register");
-        $('form input[type="submit"]').bind('click', function ( event ) {
-            console.log("Event", event);
-            if ( event ) event.preventDefault();
-            register($form);
-        });
-    }
-});
-
-function register($form) {
-    $.ajax({
-        type: $form.attr('method'),
-        url: $form.attr('action'),
-        data: $form.serialize(),
-        cache       : false,
-        dataType    : 'json',
-        contentType: "application/json; charset=utf-8",
-        error       : function(err) {
-            var $errorMsg = $('#mce-error-response');
-            $errorMsg.html("Error communicating with the server. Please try again later.");
-            $errorMsg.show();
-        },
-        success     : function(data) {
-            var $errorMsg = $('#mce-error-response');
-            var $infoMsg = $('#mce-success-response');
-
-            if (data.result !== "success") {
-                $infoMsg.html("");
-                $errorMsg.html(data.msg);
-                $errorMsg.show();
-            } else {
-                $errorMsg.html("");
-                $infoMsg.html("Thank you for subscribing");
-                $infoMsg.show();
-            }
-        }
-    });
-}
-</script>
 
 <!-- cookie -->
 {{ if site.Params.cookies.enable }}

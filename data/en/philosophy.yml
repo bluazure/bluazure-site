@@ -1,0 +1,25 @@
+enable    : true
+topTitle  : What you should know about us
+title     : About Us
+subtitle  : 
+tabItem   :
+  - id        : philosophy
+    title     : Our Philosophy
+    heading   : We use technology to build viable solutions
+    content   : >
+      We believe that technology should be used for building value. We are not dogmatic when it comes to choosing a technology and we take our decisions based on overall value, cost and future projected maintenance. We make those decisions in the context of each anc every project.
+    image     : images/company/company-image.jpg
+
+  - id        : mission
+    title     : Mission
+    heading   : Our Mission
+    content   : >
+      Work with our clients for what is best for them. We are driven by the value we can provide and how to improve and become better at it.
+    image     : images/company/company-image-2.jpg
+
+  - id        : vision
+    title     : Vision
+    heading   : Our Vision
+    content   : >
+      Merge creativity and technology so they are inseparable. Employ creativity in technology and technology in creativity. 
+    image     : images/company/company-image-3.jpg

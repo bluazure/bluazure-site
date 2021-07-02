@@ -1,0 +1,148 @@
+baseURL = "https://bluazure.ca/"
+languageCode = "en-us"
+title = "Bluazure Inc. | Your trusted partner"
+theme = "navigator-hugo"
+summaryLength = 10
+
+# Build robots.txt file
+enableRobotsTXT = true
+# google analytics tracking id
+googleAnalytics = "G-53FNW55M4M"
+
+enableGitInfo = false
+pygmentsCodeFences = true
+
+# Multilangues setup
+# Renders the default content language in subdir, e.g. /en/. The root directory / will redirect to /en/
+defaultContentLanguageInSubdir = true
+DefaultContentLanguage = "en"
+
+# Site Params
+[params]
+logo = "images/logo.png"
+
+# Gestion des langues : FR / EN / NL / DE
+#[[Params.listeLangues]]
+#code = "en"
+
+# meta data
+author = "Bluazure Inc."
+description = ""
+
+############# Site en ENGLISH
+[Languages.en]
+weight = 1
+languageCode = "en-us"
+title = "Bluazure Inc."
+dateFormat = "January 2, 2006"
+home = "Home"
+logo = "images/logo.png"
+menufixed = false
+
+footerDescription = "Bluazure is a boutique shop specializing in advanced software technologies, e-commerce and consulting. "
+footerServiceTitle = "Service"
+footerQuicklinkTitle = "Quicklinks"
+footerAboutTitle = "About"
+footerSubscribeTitle = "Subscribe"
+
+
+# cookies
+[params.cookies]
+enable = false
+expire_days = 2
+
+# Hero Area Section
+[Languages.en.params.hero]
+enable  = true
+heading = "Does your brand have what it takes?"
+description = "Whether it is commerce, e-commerce or brand recognition we know that technology is a key aspect. Does your team know how to use technology to its best? Are you using the right tools, core software, third party software? We know how overwhelming it could all be and we are here to get you where you want to be."
+button  = true
+btnText = "See What We Can Do For You"
+btnURL  = "/service"
+videoThumb = ""
+videoURL   = ""
+
+# About 2 Section
+[Languages.en.params.aboutSm]
+enable  = true
+title   = "We have explored the digital landscape with passion for a long time"
+description = "Technology is just one of our focus areas. We believe in business value of whatever we do. Our team is determined to be a key tool in your strategy, vision and growth. We are here to walk along with you."
+
+# Blog Section On Homepage
+[Languages.en.params.blog]
+enable  = false
+topTitle= "OUR UNTOLD STORY"
+title   = "Blog."
+subtitle= "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum reiciendis quasi itaque, obcaecati atque sit!"
+
+# Contact Section
+[Languages.en.params.contact]
+enable  = true
+topTitle= "DROP US A NOTE"
+title   = "Contact Us."
+subtitle= "We would love to hear from you. Drop us a message or give us a call"
+address = "Vancouver, Canada"
+phone   = "Phone/Fax: +1 (778) 244 8724"
+fax     = ""
+facebook= ""
+twitter = "https://twitter.com/BluazureCa"
+linkedin= ""
+dribbble= ""
+instagram= ""
+mapLatitude = "49.2902461"
+mapLongitude= "-123.1303594"
+mapMarker   = "images/marker.png"
+
+# Call to Action Section on About Page
+[Languages.en.params.cta]
+enable  = true
+bg      = "images/call-to-action/call-to-action-bg-2.jpg"
+title   = "Let's Create Something Together"
+subtitle= "Proin gravida nibh vel velit auctor aliquet. Aenean sollicudin bibendum auctor, <br> nisi elit consequat ipsum, nesagittis sem nid elit. Duis sed odio sitain elit."
+btnText = "Contact Us"
+
+# We Used Themefisher Icon font for Icon, for more details check this github repository - https://github.com/themefisher/themefisher-font
+
+# Site Menus
+[menu]
+# Navbar Menus
+[[menu.nav]]
+name    = "about"
+url     = "about"
+weight  = 2
+[[menu.nav]]
+name    = "service"
+url     = "service"
+weight  = 3
+[[menu.nav]]
+name    = "contact"
+url     = "contact"
+weight  = 6
+
+# Footer Service Menu
+[[menu.service]]
+name    = "custom-development"
+url     = "service"
+weight  = 3
+[[menu.service]]
+name    = "software-consulting"
+url     = "service"
+weight  = 2
+[[menu.service]]
+name    = "commerce-consulting"
+url     = "service"
+weight  = 1
+[[menu.service]]
+name    = "customer-experience"
+url     = "service"
+weight  = 4
+[[menu.service]]
+name    = "architecture-review"
+url     = "service"
+weight  = 5
+
+# Footer Quick links Menu
+[[menu.quicklink]]
+name    = "about"
+url     = "about"
+weight  = 2

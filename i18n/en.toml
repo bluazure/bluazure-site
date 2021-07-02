@@ -1,0 +1,28 @@
+[about]
+other = "About Us"
+[service]
+other = "Our Services"
+[portfolio]
+other = "Portfolio"
+[blog]
+other = "Blog"
+[contact]
+other = "Contact Us"
+
+[software-consulting]
+other = "Software Consulting"
+[commerce-consulting]
+other = "E-commerce Consulting"
+[custom-development]
+other = "Custom Development"
+[customer-experience]
+other = "Customer Experience"
+[architecture-review]
+other = "Architecture Review"
+
+[partners]
+other = "EN Partners"
+[faqs]
+other = "EN FAQ's"
+[badges]
+other = "EN Badges"

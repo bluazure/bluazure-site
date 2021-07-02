@@ -1,0 +1,28 @@
+enable  : true
+topTitle: HOW WE WORK
+title   : Our Process
+subtitle: We have been on the field long enough to know what a well-defined, structured process can do for a project.
+item    :
+  - number  : 1
+    icon    : tf-ion-ios-briefcase-outline
+    title   : Project Analysis
+    description : >
+      Understanding what you want and what you need is of a paramount importance to the project. We want to make it right from the first time.
+
+  - number  : 2
+    icon    : tf-ion-document
+    title   : Architecture & Design
+    description : >
+      There is a lot that is said about the use of the Agile methodology. Agile does not imply skipping steps and we focus just the right amount of time on design and architecture.
+
+  - number  : 3
+    icon    : tf-ion-ios-checkmark-outline
+    title   : Construction
+    description : >
+      Building the right solution requires not only the right people but also your involvement and approval along the way. We make sure that we communicate early and often.
+
+  - number  : 4
+    icon    : tf-ion-ios-locked-outline
+    title   : Delivery & Support
+    description : >
+      Our process targets a single turn-key solution but it does not stop there. We make sure that you are comfortable with what was delivered and have the time to evaluate and provide us feedback.

@@ -244,7 +244,7 @@
 			backgroundColor: "#000",
 
 			// REMOVE ALL THE CONTROLS EXCEPT ZOOM
-			zoom: 17,
+			zoom: 14,
 			panControl: false,
 			zoomControl: true,
 			mapTypeControl: false,

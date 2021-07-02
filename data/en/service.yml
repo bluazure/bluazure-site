@@ -1,0 +1,34 @@
+enable    : true
+topTitle  : OUR SERVICES
+title     : Our Services
+subtitle  : We are providing a range of services with focus on e-commerce, general software design and development.
+item      :
+  - icon  : tf-ion-ios-copy-outline
+    title : Software Consulting
+    list  :
+      - name : Technology Feasibility
+      - name : Product Design
+
+  - icon  : tf-ion-ios-copy-outline
+    title : E-Commerce Consulting
+    list  :
+      - name : SAP Commerce / Hybris
+      - name : Elastcpath Software
+
+  - icon  : tf-ion-ios-book-outline
+    title : Architecture Review
+    list  :
+      - name : Second Opinion
+      - name : Evaluate Existing Design
+
+  - icon  : tf-ion-ios-alarm-outline
+    title : Custom Development
+    list  :
+      - name : Web Services / REST 
+      - name : E-Commerce Integrations
+
+  - icon  : tf-ion-ios-alarm-outline
+    title : Customer Experience
+    list  :
+      - name : Application Development
+      - name : UI Design & Implementation

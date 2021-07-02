@@ -1,0 +1,13 @@
+enable  : true
+item    :
+  - positionRight : false
+    image : images/about/about-1.jpg
+    title : Creativity is in our blood
+    description : >
+      Our team is using every tool available to achieve best results possible. We are committed to building a state-of-the-art solution that would just work.
+
+  - positionRight : true
+    image : images/about/about-2.jpg
+    title : We use your definition for success
+    description : >
+      As a team of professionals with years of experience we have seen projects of different calibre with unique characteristics and requirements. Have they all been successful? Yes, by our definition and our customers satisfaction. We talk early in the stage of the project what success means to you and your team. We want to be a part of your team and work together towards your success.
