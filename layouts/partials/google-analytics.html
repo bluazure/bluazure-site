@@ -12,15 +12,15 @@
       gtag('config', '{{- $gid -}}');
     </script>
   {{ else }}
-    {{ if .Site.Params.googleAnalytics }}
+    {{ if .Site.GoogleAnalytics }}
       <!-- Global site tag (gtag.js) - Google Analytics -->
-      <script async src="https://www.googletagmanager.com/gtag/js?id={{- .Site.Params.googleAnalytics -}}"></script>
+      <script async src="https://www.googletagmanager.com/gtag/js?id={{- .Site.GoogleAnalytics -}}"></script>
       <script>
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
-        gtag('config', '{{- .Site.Params.googleAnalytics -}}');
+        gtag('config', '{{- .Site.GoogleAnalytics -}}');
       </script>
     {{ end }}
   {{ end}}
-{{ end }}
+{{end}}
