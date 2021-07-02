@@ -80,11 +80,8 @@
 <script>
 $(document).ready( function () {
     var $form = $('#mc-embedded-subscribe-form');
-    console.log("Form", $form, $form.length)
     if ($form.length > 0) {
-        console.log("Register");
         $('form input[type="submit"]').bind('click', function ( event ) {
-            console.log("Event", event);
             if ( event ) event.preventDefault();
             register($form);
         });
