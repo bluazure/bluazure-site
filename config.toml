@@ -98,7 +98,7 @@ mapMarker   = "images/marker.png"
 enable  = true
 bg      = "images/call-to-action/call-to-action-bg-2.jpg"
 title   = "Let's Create Something Together"
-subtitle= "Proin gravida nibh vel velit auctor aliquet. Aenean sollicudin bibendum auctor, <br> nisi elit consequat ipsum, nesagittis sem nid elit. Duis sed odio sitain elit."
+subtitle= "Do you have an idea, a project plan, a quesion or just want a second opinion? We provide free consultation and engagement evaluation. Get in touch with us and we will be happy to help."
 btnText = "Contact Us"
 
 # We Used Themefisher Icon font for Icon, for more details check this github repository - https://github.com/themefisher/themefisher-font
@@ -142,6 +142,11 @@ url     = "service"
 weight  = 5
 
 # Footer Quick links Menu
+[[menu.quicklink]]
+name    = "contact"
+url     = "contact"
+weight  = 1
+
 [[menu.quicklink]]
 name    = "about"
 url     = "about"

@@ -18,12 +18,20 @@
             {{ "<!-- Contact Details -->" | safeHTML }}
             <div class="col-12 col-md-6">
                 <a href="https://www.google.ca/maps/dir//535+Nicola+St,+Vancouver,+BC+V6G+3G2,+Canada" target="_blank">
-                    <img src="/images/location.png" style="width: 450px;height: 450px" />
+                    <img src="/images/location.png" style="max-height: 30rem" />
                 </a>
             </div>
             {{ "<!-- Contact Form -->" | safeHTML }}
             <div class="contact-form col-12 col-md-6 ">
-                <form id="contact-form" method="post" action="javascript: $('mail-fail').show();" role="form">
+            <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/shell.js"></script>
+<script>
+  hbspt.forms.create({
+	region: "na1",
+	portalId: "20350993",
+	formId: "cbc23812-c962-4667-8888-460630a36697"
+});
+</script>
+                <!--form-- id="contact-form" method="post" action="javascript: $('mail-fail').show();" role="form">
                     <div class="form-group">
                         <input type="text" placeholder="Your Name" class="form-control" name="name" id="name">
                     </div>
@@ -51,7 +59,7 @@
                     <div id="cf-submit">
                         <input type="submit" id="contact-submit" class="btn btn-transparent" value="Submit">
                     </div>
-                </form>
+                </!--form-->
             </div>
         </div>
         <div class="row">
