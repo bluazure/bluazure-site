@@ -13,7 +13,7 @@ item      :
     title : E-Commerce Consulting
     list  :
       - name : SAP Commerce / Hybris
-      - name : Elastcpath Software
+      - name : Elastic Path Commerce
 
   - icon  : tf-ion-ios-book-outline
     title : Architecture Review
