@@ -1,4 +1,4 @@
-baseUrl = "https://www.bluazure.ca/"
+baseURL = "https://www.bluazure.ca/"
 languageCode = "en-us"
 title = "Bluazure Inc. | Your trusted partner"
 theme = "navigator-hugo"

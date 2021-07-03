@@ -1,8 +1,16 @@
 [build]
   publish = "public"
-  command = "hugo --gc --themesDir themes"
+  command = "hugo --gc --themesDir themes -v --debug"
   
 [build.environment]
   HUGO_VERSION = "0.73.0"
   HUGO_THEME = "navigator-hugo"
-  HUGO_BASEURL = "/"
+  HUGO_BASEURL = "https://www.bluazure.ca/"
+  HUGO_ENV = "production"
+  HUGO_ENABLEGITINFO = "false"
+
+[context.deploy-preview]
+  command = "hugo --gc -v --debug -b $DEPLOY_PRIME_URL/"
+
+[context.branch-deploy]
+  command = "hugo --gc -v --debug -b $DEPLOY_PRIME_URL/"
