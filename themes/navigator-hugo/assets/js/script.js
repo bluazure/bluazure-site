@@ -23,12 +23,15 @@
 		/*	Portfolio Filtering Hook
 		/* =========================================================================  */
 		setTimeout(function () {
-			var filterizd = $('.filtr-container').filterizr({});
-			//Active changer
-			$('.filtr-control').on('click', function () {
-				$('.filtr-control').removeClass("active");
-				$(this).addClass("active");
-			});
+			var filtrContainer = $('.filtr-container');
+			if (filtrContainer.length > 0) {
+				var filterizd = filtrContainer.filterizr({});
+				//Active changer
+				$('.filtr-control').on('click', function () {
+					$('.filtr-control').removeClass("active");
+					$(this).addClass("active");
+				});
+			}
 		}, 500);
 
 		/* ========================================================================= */
