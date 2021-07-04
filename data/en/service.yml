@@ -13,7 +13,9 @@ item      :
     title : E-Commerce Consulting
     list  :
       - name : SAP Commerce / Hybris
+      - name : SAP Commerce Cloud
       - name : Elastic Path Commerce
+      - name : Headless commerce
 
   - icon  : tf-ion-ios-book-outline
     title : Architecture Review

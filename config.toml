@@ -37,7 +37,7 @@ title = "Bluazure Inc."
 dateFormat = "January 2, 2006"
 home = "Home"
 logo = "images/logo.png"
-menufixed = false
+menufixed = true
 
 footerDescription = "Bluazure is a boutique shop specializing in advanced software technologies, e-commerce and consulting. "
 footerServiceTitle = "Service"
